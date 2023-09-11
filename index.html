@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>域名停用通知</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            margin: 20px auto;
+            background-color: #6c757d;
+            text-align: center;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            line-height: 50px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+        .button:hover {
+            background-color: #5a6268;
+        }
+    </style>
+
+    <script>
+        window.onload = function() {
+            var ua = navigator.userAgent;
+            var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(ua);
+            var appLink = document.getElementById('app-link');
+            if (isMobile) {
+                appLink.href = "https://wwat.lanzoul.com/irpu317q5iyh?w1";
+            } else {
+                appLink.href = "http://chat.iswl.tk";
+                appLink.textContent = "访问新网站";
+            }
+        }
+    </script>
+
+</head>
+<body>
+    <div>
+        <h1>本域名即将停用，请保存新网站或下载新APP。</h1>
+        <a href="http://chat.iswl.tk" class="button">访问新网站</a>
+        <a href="https://wwat.lanzoul.com/irpu317q5iyh?w1" class="button" id="app-link">下载APP</a>
+    </div>
+</body>
+</html>
